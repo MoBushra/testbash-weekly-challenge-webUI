@@ -18,6 +18,7 @@
   "homepage": "https://github.com/MoBushra/testbash-weekly-challenge-webUI#readme",
   "dependencies": {
     "@wdio/cli": "^6.6.4",
+    "faker": "^5.1.0",
     "webdriverio": "^6.6.4"
   },
   "devDependencies": {
