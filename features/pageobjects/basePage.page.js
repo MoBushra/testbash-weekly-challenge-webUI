@@ -8,6 +8,10 @@ export default class BasePage {
     * @param path path of the sub page (e.g. /path/to/page.html)
     */
     open (path) {
-        return browser.url(`/${path}`)
+        try {
+            browser.url(`${path}`);
+          } catch (err) {
+            throw new Error(err);
+          }
     }
 }
