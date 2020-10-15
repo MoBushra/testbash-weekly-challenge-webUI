@@ -3,6 +3,7 @@ Feature: The Shady Meadows Website
   Create an automated test that completes the contact us form on the homepage, submits it, 
   and asserts that the form was completed successfully.
 
+  @ContactUs
   Scenario Outline: As a visitor, I can sumbit a message using the contact us form
 
     Given I am on the home page
